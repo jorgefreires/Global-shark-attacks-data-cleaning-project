@@ -1,5 +1,7 @@
 *.csv
 
+data
+
 .ipybn_checkpoints
 
 .DS_Store
