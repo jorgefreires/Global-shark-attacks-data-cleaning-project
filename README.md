@@ -1,4 +1,4 @@
-# Global shark attacks data cleaning project
+# Global shark attacks data cleaning project 🦈
 
 En este proyecto se intenta limpiar la base de datos [global-shark-attacks](https://www.kaggle.com/datasets/teajay/global-shark-attacks), obtenido en Kaggle, sin eliminar ninguna de sus columnas. A continuación se enumeran las 23 columnas del csv y se indica lo que se ha hecho en cada una de ellas:
 
@@ -46,7 +46,7 @@ En este proyecto se intenta limpiar la base de datos [global-shark-attacks](http
 
 
 
-## BONUS: Pequeño análisis explotatorio ⚙️
+## BONUS‼️ Pequeño análisis explotatorio 
 
 
 ### Hipótesis
