@@ -1,6 +1,6 @@
 # Global shark attacks data cleaning project 🦈
 
-En este proyecto se intenta limpiar la base de datos [global-shark-attacks](https://www.kaggle.com/datasets/teajay/global-shark-attacks), obtenido en Kaggle, sin eliminar ninguna de sus columnas. A continuación se enumeran las 23 columnas del csv y se indica lo que se ha hecho en cada una de ellas:
+En este proyecto se intenta limpiar la base de datos [global-shark-attacks](https://www.kaggle.com/datasets/teajay/global-shark-attacks), obtenida en Kaggle, a través Python usando la libreria Pandas sin eliminar ninguna de sus columnas. A continuación se enumeran las 23 columnas del csv y se indica lo que se ha hecho en cada una de ellas:
 
 * **Case number:** Indice de los casos. Dado que lo importante es que sea unico, se han cambiado sus valores por un índice de valores únicos.
 
@@ -12,11 +12,11 @@ En este proyecto se intenta limpiar la base de datos [global-shark-attacks](http
 
 * **Country:** País en el que se ha producido el incidente. Se edito valor a valor corrigiendo aquellos valores mal indicados y, en el caso de ser territorio internacional, como un oceano, se indico la región. Los datos desconocidos se indicaron con la palabra unknown.
 
-* **Area:** Región en la que se produjo el incidente. Se cambiaron los valores nulos por la plaabra unknown, pero no se verificaron los valores uno por uno debido a la gran cantidad de valores únicos. Una vez limpia esta columna, se comprobo si se podían rellenar datos desconocidos de Country con los datos de esta columna.
+* **Area:** Región en la que se produjo el incidente. Se cambiaron los valores nulos por la palabra unknown, pero no se verificaron los valores uno por uno debido a la gran cantidad de valores únicos. Una vez limpia esta columna, se comprobo si se podían rellenar datos desconocidos de Country con los datos de esta columna.
 
-* **Location:** Lugar concreto del incidente. Se cambiaron los valores nulos por la plaabra unknown, pero no se verificaron los valores uno por uno debido a la gran cantidad de valores únicos. Una vez limpia esta columna, se comprobo si se podían rellenar datos desconocidos de Country o Area con los datos de esta columna.
+* **Location:** Lugar concreto del incidente. Se cambiaron los valores nulos por la palabra unknown, pero no se verificaron los valores uno por uno debido a la gran cantidad de valores únicos. Una vez limpia esta columna, se comprobo si se podían rellenar datos desconocidos de Country o Area con los datos de esta columna.
 
-* **Activity:** Actividad que se estaba realizando cuando ocurrio el incidente. Se cambiaron los valores nulos por la plaabra unknown, pero no se verificaron los valores uno por uno debido a la gran cantidad de valores únicos.
+* **Activity:** Actividad que se estaba realizando cuando ocurrio el incidente. Se cambiaron los valores nulos por la palabra unknown, pero no se verificaron los valores uno por uno debido a la gran cantidad de valores únicos.
 
 * **Name:** Nombre de la persona o personas envueltas en el incidente. Se cambiaron los valores nulos y desconocidos por la palabra unknown, pero no se verificaron los valores uno por uno debido a la gran cantidad de valores únicos.
 
@@ -30,9 +30,9 @@ En este proyecto se intenta limpiar la base de datos [global-shark-attacks](http
 
 * **Time:** Indica la hora y minuto a la que se produjo el incidente. Se arreglaron los valores para que estuvieran en formato hh:mm. Además se cambiaron los nulos y los desconocidos por la palabra unknown.
 
-* **Species:** Indica la especie del tiburón envuelto en el incidente. Se cambiaron los valores nulos por la plaabra unknown, pero no se verificaron los valores uno por uno debido a la gran cantidad de valores únicos.
+* **Species:** Indica la especie del tiburón envuelto en el incidente. Se cambiaron los valores nulos por la palabra unknown, pero no se verificaron los valores uno por uno debido a la gran cantidad de valores únicos.
 
-* **Investigator or Source:** Persona, entidad o ambas responsable de la investigación del ataque. Se cambiaron los valores nulos por la plaabra unknown, pero no se verificaron los valores uno por uno debido a la gran cantidad de valores únicos.
+* **Investigator or Source:** Persona, entidad o ambas responsable de la investigación del ataque. Se cambiaron los valores nulos por la palabra unknown, pero no se verificaron los valores uno por uno debido a la gran cantidad de valores únicos.
 
 * **pdf:** Nombre del pdf asociado al incidente. No hubo que cambiar nada.
 
